@@ -1,12 +1,12 @@
 # 👋 Hi, I'm Mikołaj
 
-**AI Marketing Developer | Growth Engineer | Builder**
+**AI | Growth Engineer | Builder**
 
 I build AI-powered tools, automate workflows, and ship solutions before most people finish writing the Jira ticket. My focus is on the intersection of **AI, Marketing, and Rapid Prototyping**.
 
 ### 🛠️ Tech Stack & Tools
 - **Web & Full-Stack:** Next.js (Server Components), React, Vercel, Supabase
-- **AI & LLMs:** OpenAI (GPT-4o), Anthropic (Claude 3.5 Sonnet), Prompt Engineering, Multi-Agent Orchestration
+- **AI & LLMs:** OpenAI (5.5),Gemini(3,0) Anthropic (Claude 4.7 Sonnet), Prompt Engineering, Multi-Agent Orchestration
 - **Workflow & Automation:** n8n, Webhooks, API Integrations, Make
 - **Daily Drivers:** Cursor, v0, Git, Terminal
 
@@ -17,12 +17,11 @@ Instead of relying on single-prompt outputs, I built a local multi-agent system 
 *Business Impact:* Automates hours of deep market research, competitive analysis, and campaign validation into a 5-minute automated pipeline.
 
 **2. [Cinematic AI Landing Page Generator](https://github.com/xMikoop/ai-cinematic-landing-builder)**
-An advanced Prompt Engineering architecture that forces Claude/GPT-4 to act as Senior Creative Technologists. It bypasses boring AI outputs by strictly enforcing GSAP animations, aesthetic presets, bezier curves, and SVG noise filters.
+An advanced Prompt Engineering architecture that forces GPT to act as Senior Creative Technologists. It bypasses boring AI outputs by strictly enforcing GSAP animations, aesthetic presets, bezier curves, and SVG noise filters.
 *Business Impact:* Turns a 2-day landing page build into a 5-minute automated generation, shipping high-converting, animated sites ready for production.
 
 ### 💡 My Mindset
-1. **Ship Fast:** "Good enough and shipped" beats "perfect and pending."
-2. **Automate Everything:** If a marketing task is done manually today, my job is to automate it tomorrow.
-3. **Business > Code:** I write code to solve business problems, generate leads, and save money—not just to play with new libraries.
+1.. **Automate Everything:** If a marketing task is done manually today, my job is to automate it tomorrow.
+2.. **Business > Code:** I write code to solve business problems... but mostly for fun :)
 
-📫 Let's connect and build something that impacts growth.
+📫 Let's connect and build something that make our world better.
