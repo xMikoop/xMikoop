@@ -20,6 +20,10 @@ Instead of relying on single-prompt outputs, I built a local multi-agent system 
 An advanced Prompt Engineering architecture that forces GPT to act as Senior Creative Technologists. It bypasses boring AI outputs by strictly enforcing GSAP animations, aesthetic presets, bezier curves, and SVG noise filters.
 *Business Impact:* Turns a 2-day landing page build into a 5-minute automated generation, shipping high-converting, animated sites ready for production.
 
+**3. [Automated AI Log Analyzer](https://github.com/xMikoop/system-log-ai-analyzer)**
+An internal tool built with FastAPI that eliminates manual troubleshooting. It unzips enterprise software logs, parses XML/SQL/Event logs, and queries Google Gemini to find root causes and fix steps.
+*Business Impact:* Reduces a 2-hour manual log analysis into a 10-second automated pipeline. Includes local MD5 caching to drastically reduce LLM API costs.
+
 ### 💡 My Mindset
 1.. **Automate Everything:** If a boring task is done manually today, my job is to automate it.
 2.. **Business > Code:** I write code to solve business problems... but mostly for fun :)
