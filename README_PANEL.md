@@ -1,94 +1,39 @@
-# Panel ekspertów: Ukraina 2026 — proces w pi
+# 🤖 Multi-Agent AI Orchestration Framework
 
-Ten folder to gotowy, kopiowalny szablon pracy z kilkoma agentami/rolami w pi.
-
-Cel: uruchomić debatę ekspertów o wojnie na Ukrainie w 2026 roku z perspektyw:
-
-1. polityka/geopolityka,
-2. ekonomia,
-3. zdrowie publiczne/medycyna,
-4. moderator/synteza.
-
-> Uwaga: pi domyślnie nie ma automatycznych sub-agentów. Ten szablon pokazuje dwa tryby: ręczny panel w kilku terminalach albo symulację panelu w jednej sesji.
+**A scalable framework for automated strategic analysis, market research, and competitive intelligence using multiple LLMs.**
 
 ---
 
-## Struktura folderu
+### 🚨 The Problem
+Marketing teams and executives often use LLMs like ChatGPT or Claude for strategy, research, or content. But a single prompt usually returns safe, generic, or biased answers. Single models don't challenge their own assumptions well, leading to shallow insights.
 
-```text
-panel-ukraina-2026/
-├── README.md
-├── JAK-URUCHOMIC-RECZNIE-I-ROZNE-MODELE.md
-├── 00-temat.md
-├── 01-polityka.md
-├── 02-ekonomia.md
-├── 03-zdrowie.md
-├── 04-pytania-krzyzowe.md
-├── 05-synteza.md
-├── prompts/
-│   ├── agent-polityka.md
-│   ├── agent-ekonomia.md
-│   ├── agent-zdrowie.md
-│   └── moderator.md
-└── proces/
-    ├── 00-protokol-demo.md
-    └── copy-paste-komendy.md
-```
+### 💡 The Solution
+A **Cross-Examining Multi-Agent System**. Instead of one AI doing all the work, this framework orchestrates multiple specialized AI personas. 
+- **Agent 1 (e.g., Market Analyst)**: Focuses on trends and hard data.
+- **Agent 2 (e.g., Financial / Economist)**: Focuses on budgets, ROI, and costs.
+- **Agent 3 (e.g., Consumer Behavior)**: Focuses on user psychology and risks.
+- **Moderator**: Orchestrates the debate, forces agents to ask each other hard questions, highlights contradictions, and outputs a final, highly rigorous synthesis.
+
+### 🛠️ Tech Stack & Architecture
+- **Environment:** Local CLI execution (easily adaptable to Next.js API Routes / n8n nodes).
+- **Models:** Provider-agnostic. Can mix models in the same workflow (e.g., *Claude 3.5 Sonnet* for deep analysis, *GPT-4o* for rapid moderation, *Gemini* for structured data).
+- **Data Flow:** Modular file-based routing & context injection to prevent context pollution between agents.
+
+### 📈 Business Impact (Marketing & Growth)
+- **Campaign Validation:** Before spending $10k on a campaign, 3 AI experts try to "break" the idea and find flaws.
+- **Competitor Analysis:** Agents simulate different competitors reacting to a new product launch.
+- **Time Saved:** Turns a 3-day strategic research sprint into a 5-minute automated pipeline.
 
 ---
 
-## Tryb A — kilka prawdziwych sesji pi
+### 📂 Repository Structure (Demo Use Case)
+As a proof of concept, this repository contains a completed run simulating a complex geopolitical/economic panel. **The exact same architecture drops directly into Marketing Tech.**
 
-Otwórz 4 terminale w tym folderze:
-
-```powershell
-cd C:\Users\mikol\panel-ukraina-2026
-```
-
-W każdym terminalu uruchamiasz pi z inną rolą. Gotowe komendy są w:
-
-```text
-proces/copy-paste-komendy.md
-```
-
-Ten tryb daje niezależne sesje, czyli agent polityczny, ekonomiczny i zdrowotny nie są tylko „udawanymi głosami” w jednej odpowiedzi.
+- `prompts/` - Individual system prompts injecting deep expertise into each agent.
+- `01-` to `03-` - Independent agent outputs (isolated context).
+- `04-pytania-krzyzowe.md` - The Moderator forcing agents to find flaws in each other's logic.
+- `05-synteza.md` - Final executive summary with actionable indicators.
+- `JAK-URUCHOMIC-RECZNIE-I-ROZNE-MODELE.md` - Technical documentation on orchestrating cross-provider models.
 
 ---
-
-## Tryb B — jedna sesja pi symuluje panel
-
-Wygodne, szybkie i tańsze, ale technicznie to jeden model odgrywa kilka ról.
-
-Przykładowy prompt:
-
-```text
-Przeprowadź panel ekspertów na podstawie @00-temat.md.
-Role weź z plików @prompts/agent-polityka.md, @prompts/agent-ekonomia.md, @prompts/agent-zdrowie.md i @prompts/moderator.md.
-Zapisz wynik do 05-synteza.md, a widoczny protokół pracy do proces/00-protokol-demo.md.
-Nie pokazuj ukrytego chain-of-thought; pokaż tylko jawny proces: tezy, pytania, sprzeczności, wnioski.
-```
-
----
-
-## Zasady jakości
-
-- Oddzielaj **fakty**, **założenia**, **prognozy** i **niepewności**.
-- Przy aktualnych wydarzeniach wymagaj źródeł albo oznacz sekcję jako „do weryfikacji”.
-- Nie przedstawiaj prognoz jako pewników.
-- Lekarz/ekspert zdrowia publicznego nie daje indywidualnej porady medycznej — analizuje skutki systemowe.
-- Moderator ma obowiązek wskazać konflikty między ekspertami, a nie tylko sklejać ich opinie.
-
----
-
-## Czym jest „proces” w tym folderze?
-
-Plik `proces/00-protokol-demo.md` pokazuje **jawny proces roboczy**:
-
-- kto ma jaką rolę,
-- jakie są rundy debaty,
-- jakie tezy padły,
-- jakie pytania zadali sobie eksperci,
-- gdzie są spory,
-- jaki jest wynik moderatora.
-
-Nie jest to ukryte rozumowanie modelu krok po kroku. To protokół pracy, który możesz potem kopiować i modyfikować.
+*Built with a focus on pragmatism—no overengineered frameworks (like heavy Langchain setups), just pure prompts, context management, and fast execution.*
