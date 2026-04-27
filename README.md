@@ -11,9 +11,9 @@ I build tools, automate workflows, and ship solutions that work. My motto is kee
 
 ### 🚀 Featured Projects
 
-**1. [Tech Grill Sandbox](https://github.com/xMikoop/tech-grill-learn)**
-A professional development environment for simulating and solving high-level technical challenges. It focuses on Next.js performance (Core Web Vitals), advanced AI API integrations, and scalable frontend architectures.
-*Impact:* Serves as a technical "command center" for practicing complex integration patterns and optimizing Lighthouse scores for production-grade AI applications.
+**1. [Tech Grill Sandbox](https://github.com/xMikoop/tech-grill-learn) — [🔗 Live Demo](https://tech-grill-learn.vercel.app/)**
+A high-performance development dashboard for technical interview simulations and preparation. It represents the flagship environment for mastering Next.js performance and AI-driven frontend architectures.
+*Impact:* My primary technical playground for optimizing Core Web Vitals and testing scalable AI integration patterns. Highly optimized for Lighthouse scores.
 
 **2. [Multi-Agent Orchestration Framework](https://github.com/xMikoop/xMikoop/blob/main/README_PANEL.md)**
 Instead of relying on single-prompt outputs, I built a local multi-agent system where independent LLMs act as specialized experts. They analyze a business problem, cross-examine each other's assumptions, and a "Moderator" agent synthesizes the final strategy. 
