@@ -2,13 +2,12 @@
 
 **AI | Growth Engineer | Builder**
 
-I build AI-powered tools, automate workflows, and ship solutions before most people finish writing the Jira ticket. My focus is on the intersection of **AI, Marketing, and Rapid Prototyping**.
+I build AI-powered tools, automate workflows, and ship solutions that works. My motto is keeping halucinations away at all cost.
 
 ### 🛠️ Tech Stack & Tools
-- **Web & Full-Stack:** Next.js (Server Components), React, Vercel, Supabase
 - **AI & LLMs:** OpenAI (5.5),Gemini(3,0) Anthropic (Claude 4.7 Sonnet), Prompt Engineering, Multi-Agent Orchestration
 - **Workflow & Automation:** n8n, Webhooks, API Integrations, Make
-- **Daily Drivers:** Cursor, v0, Git, Terminal
+- **Daily Drivers:** Antigravity, Codex, PI
 
 ### 🚀 Featured Projects
 
