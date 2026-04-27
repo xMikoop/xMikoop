@@ -23,7 +23,7 @@ An advanced Prompt Engineering architecture that forces LLMs to act as Senior Cr
 An internal tool built with FastAPI that eliminates manual troubleshooting. It unzips enterprise software logs, parses XML/SQL/Event logs, and queries LLMs to find root causes and fix steps.
 *Impact:* Reduces manual log analysis time significantly. Includes local MD5 caching to drastically reduce API costs.
 
-**4. [Cold Outreach Node Engine](https://github.com/xMikoop/outreach-node-engine)**
+**4. [Cold Outreach Node Engine](https://github.com/xMikoop/outreach-engine-v2)**
 Migrating a massive cold email personalization workflow from No-Code (Make.com) to a custom Node.js architecture. It processes bulk Apollo.io CSV exports, uses the OpenAI SDK (forcing JSON outputs) to generate laconic icebreakers, and handles API rate limits locally.
 *Impact:* Scaled a system that was bottlenecked by execution costs, dropping operational expenses while gaining complete control over rate limiting.
 
