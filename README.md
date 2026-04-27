@@ -29,6 +29,6 @@ Migrating a massive cold email personalization workflow from No-Code (Make.com) 
 
 ### 💡 My Mindset
 1. **Automate Everything:** If a boring task is done manually today, my job is to automate it.
-2. **Business > Code:** I write code to solve business problems... but mostly for fun :)
+2. **Business > Code:** I write code to solve business problems... but also for fun :)
 
 📫 Let's connect and build something that makes our world better.
