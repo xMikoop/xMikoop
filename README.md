@@ -24,6 +24,10 @@ An advanced Prompt Engineering architecture that forces GPT to act as Senior Cre
 An internal tool built with FastAPI that eliminates manual troubleshooting. It unzips enterprise software logs, parses XML/SQL/Event logs, and queries Google Gemini to find root causes and fix steps.
 *Business Impact:* Reduces a 2-hour manual log analysis into a 10-second automated pipeline. Includes local MD5 caching to drastically reduce LLM API costs.
 
+**4. [AI Cold Outreach Engine (Node.js V2)](https://github.com/xMikoop/ai-outreach-engine-v2)**
+Migrating a massive cold email personalization workflow from No-Code (Make.com) to a custom Node.js architecture. It processes bulk Apollo.io CSV exports, uses the OpenAI SDK (forcing JSON outputs) to generate laconic icebreakers, and handles API rate limits locally.
+*Business Impact:* Scaled a system that was bottlenecked by Make.com execution costs, dropping operational API expenses by 90% while gaining complete control over rate limiting for 10,000+ leads per week.
+
 ### 💡 My Mindset
 1.. **Automate Everything:** If a boring task is done manually today, my job is to automate it.
 2.. **Business > Code:** I write code to solve business problems... but mostly for fun :)
