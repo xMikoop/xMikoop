@@ -1,3 +1,6 @@
+> 💡 **Portfolio Note:** *This framework was originally developed and run in Q1 2026. The outputs have been sanitized and published here as a proof of concept for multi-agent architecture.*
+
+
 # 🤖 Multi-Agent AI Orchestration Framework
 
 **A scalable framework for automated strategic analysis, market research, and competitive intelligence using multiple LLMs.**
